@@ -86,7 +86,7 @@ const Projects = () => {
   return (
     <div className="space-y-6 md:space-y-8">
       <h2 className="text-xl md:text-2xl font-bold text-white mb-2 md:mb-4">
-        Cool Projects I've Built
+        Cool Projects {"I've"} Built
       </h2>
 
       {/* Projects Grid */}

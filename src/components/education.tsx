@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Ptu from "@/assets/ptu.png";
 import Link from "next/link";
 
 interface WorkExperience {
   company: string;
   role: string;
-  logo: any;
+  logo: StaticImageData;
   duration: string;
   isPresent?: boolean;
   link: string;
