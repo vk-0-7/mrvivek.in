@@ -1,0 +1,17 @@
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+              <!-- Darkest on the left, gradually lighter to the right, last two rectangles are the lightest -->
+              <rect x="0" y="0" width="61.53846153846154" height="400" fill="rgb(5, 5, 10)" fill-opacity="1" />
+              <rect x="61.53846153846154" y="0" width="61.53846153846154" height="400" fill="rgb(10, 10, 15)" fill-opacity="1" />
+              <rect x="123.07692307692308" y="0" width="61.53846153846154" height="400" fill="rgb(15, 15, 20)" fill-opacity="1" />
+              <rect x="184.6153846153846" y="0" width="61.53846153846154" height="400" fill="rgb(20, 20, 25)" fill-opacity="1" />
+              <rect x="246.15384615384616" y="0" width="61.53846153846154" height="400" fill="rgb(25, 25, 30)" fill-opacity="1" />
+              <rect x="307.6923076923077" y="0" width="61.53846153846154" height="400" fill="rgb(30, 30, 35)" fill-opacity="1" />
+              <rect x="369.2307692307692" y="0" width="61.53846153846154" height="400" fill="rgb(35, 35, 40)" fill-opacity="1" />
+              <rect x="430.7692307692308" y="0" width="61.53846153846154" height="400" fill="rgb(40, 40, 45)" fill-opacity="1" />
+              <rect x="492.3076923076923" y="0" width="61.53846153846154" height="400" fill="rgb(45, 45, 50)" fill-opacity="1" />
+              <rect x="553.8461538461538" y="0" width="61.53846153846154" height="400" fill="rgb(50, 50, 55)" fill-opacity="1" />
+              <rect x="615.3846153846154" y="0" width="61.53846153846154" height="400" fill="rgb(55, 55, 60)" fill-opacity="1" />
+              <rect x="676.9230769230769" y="0" width="61.53846153846154" height="400" fill="rgb(60, 60, 65)" fill-opacity="1" />
+              <rect x="738.4615384615385" y="0" width="61.53846153846154" height="400" fill="rgb(65, 65, 70)" fill-opacity="1" />
+            </svg>
