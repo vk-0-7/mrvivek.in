@@ -8,7 +8,7 @@ import Projects from "@/components/projects";
 export default function Home() {
   return (
     <div className="min-h-screen px-4 sm:px-6 md:px-8 pt-8 md:pt-16 pb-16 max-w-[45rem] mx-auto">
-      <div className="space-y-6 md:space-y-12 mb-12">
+      <div className="space-y-8 md:space-y-12 mb-12">
         <Hero />
         <Work />
         <Skills />

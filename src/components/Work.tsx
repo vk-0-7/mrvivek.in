@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Shopiq from "@/assets/shopiq.png";
-import Cftlabs from "@/assets/cftlabs.jpeg";
+import Shopiq from "../../public/assets/shopiq.png";
+import Cftlabs from "../../public/assets/cftlabs.jpeg";
 import Link from "next/link";
 
 import { StaticImageData } from "next/image";
@@ -59,8 +59,8 @@ export default function Work() {
                     className="w-10 h-10 md:w-12 md:h-12 object-contain"
                   />
                 </div>
-                <div>
-                  <h3 className="text-base md:text-lg lg:text-lg font-semibold text-white">
+                <div className="space-y-1">
+                  <h3 className="text-sm md:text-lg lg:text-lg font-semibold text-white">
                     {experience.company}
                   </h3>
                   <p className="text-xs md:text-sm text-gray-400">

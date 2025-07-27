@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import Ptu from "@/assets/ptu.png";
+import Ptu from "../../public/assets/ptu.png";
 import Link from "next/link";
 
 interface WorkExperience {
@@ -14,7 +14,7 @@ interface WorkExperience {
 const workExperiences: WorkExperience[] = [
   {
     company: "Punjab Technical University",
-    role: "B.Tech | Electronics and Communication Engineering",
+    role: "Electronics and Communication Engineering",
     logo: Ptu,
     duration: "2020 - 2024",
     isPresent: false,
@@ -46,11 +46,11 @@ export default function Education() {
                     alt={experience.company}
                     width={48}
                     height={48}
-                    className="w-10 h-10 md:w-12 md:h-12 object-contain"
+                    className="w-8 h-8 md:w-12 md:h-12 object-contain rounded-full"
                   />
                 </div>
-                <div>
-                  <h3 className="text-base md:text-lg lg:text-lg font-semibold text-white">
+                <div className="space-y-1">
+                  <h3 className="text-sm md:text-lg lg:text-lg font-semibold text-white">
                     {experience.company}
                   </h3>
                   <p className="text-xs md:text-sm text-gray-400">
@@ -61,7 +61,7 @@ export default function Education() {
 
               {/* Right side - Duration */}
               <div className="text-right">
-                <p className="text-xs md:text-sm text-gray-400">
+                <p className="text-xs md:text-sm text-gray-400 whitespace-nowrap">
                   {experience.duration}
                 </p>
               </div>
