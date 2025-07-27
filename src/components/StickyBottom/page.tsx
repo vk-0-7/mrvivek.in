@@ -1,14 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import HomeIcon from "../../assets/home.svg";
-import BookIcon from "../../assets/book.svg";
-import GithubIcon from "../../assets/Github.svg";
-import LinkedinIcon from "../../assets/linkedin.svg";
-import TwitterIcon from "../../assets/twitter.svg";
-import InstagramIcon from "../../assets/instagram.svg";
-import MoonIcon from "../../assets/moon.svg";
-import SunIcon from "../../assets/sun.svg";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaHome,
+  FaSun,
+  FaMoon,
+} from "react-icons/fa";
 import Image from "next/image";
 
 export const StickyBottom = () => {
@@ -19,36 +20,36 @@ export const StickyBottom = () => {
   };
 
   const navigationItems = [
-    {
-      icon: HomeIcon,
-      href: "/",
-      label: "Home",
-    },
+    // {
+    //   icon: <FaHome />,
+    //   href: "/",
+    //   label: "Home",
+    // },
     // {
     //   icon: BookIcon,
     //   href: "/blog",
     //   label: "Blog",
     // },
     {
-      icon: GithubIcon,
+      icon: <FaGithub />,
       href: "https://github.com/vk-0-7",
       label: "GitHub",
       external: true,
     },
     {
-      icon: LinkedinIcon,
+      icon: <FaLinkedin />,
       href: "https://www.linkedin.com/in/kumarvivek07/",
       label: "LinkedIn",
       external: true,
     },
     {
-      icon: TwitterIcon,
+      icon: <FaTwitter />,
       href: "https://x.com/vivek_dev007",
       label: "Twitter",
       external: true,
     },
     {
-      icon: InstagramIcon,
+      icon: <FaInstagram />,
       href: "https://www.instagram.com/vivek07____/",
       label: "Instagram",
       external: true,
@@ -57,51 +58,28 @@ export const StickyBottom = () => {
 
   return (
     <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-black rounded-full px-4 py-3 shadow-lg border border-gray-700">
-        <div className="flex items-center gap-3">
+      <div className="bg-black rounded-full px-2 md:px-4 py-2 md:py-3 shadow-lg border border-gray-700">
+        <div className="flex items-center gap-2 md:gap-3">
           {navigationItems.map((item, index) => (
             <a
               key={index}
               href={item.href}
               target={item.external ? "_blank" : "_self"}
               rel={item.external ? "noopener noreferrer" : ""}
-              className="p-2 rounded-full hover:bg-gray-700 transition-colors duration-200 group"
+              className="p-2 rounded-full hover:bg-gray-700 transition-colors duration-200 group text-white"
               aria-label={item.label}
             >
-              <Image
-                src={item.icon}
-                alt={item.label}
-                width={20}
-                height={20}
-                className="brightness-0 invert group-hover:scale-110 transition-transform duration-200"
-              />
+              {item.icon}
             </a>
           ))}
 
-          {/* Theme toggle button */}
-          <button
+          {/* <button
             onClick={toggleTheme}
-            className="p-2 rounded-full hover:bg-gray-700 transition-colors duration-200 group"
+            className="p-2 rounded-full hover:bg-gray-700 transition-colors duration-200 group text-white"
             aria-label="Toggle theme"
           >
-            {isDarkMode ? (
-              <Image
-                src={SunIcon}
-                alt="Sun"
-                width={20}
-                height={20}
-                className="brightness-0 invert group-hover:scale-110 transition-transform duration-200"
-              />
-            ) : (
-              <Image
-                src={MoonIcon}
-                alt="Moon"
-                width={20}
-                height={20}
-                className="brightness-0 invert group-hover:scale-110 transition-transform duration-200"
-              />
-            )}
-          </button>
+            {isDarkMode ? <FaSun /> : <FaMoon />}
+          </button> */}
         </div>
       </div>
     </div>

@@ -4,8 +4,9 @@ const skills = [
   "TypeScript",
   "JavaScript",
   "Node.js",
+  "Tailwind CSS",
   "C++",
-
+  "Supabase",
   "MongoDB",
   "Git",
 ];
@@ -22,7 +23,7 @@ export default function Skills() {
           {skills.map((skill, index) => (
             <span
               key={index}
-              className="px-3 md:px-4 py-1.5 md:py-1 bg-white text-black rounded-lg text-sm md:text-base font-medium hover:bg-gray-100 transition-colors duration-200 cursor-default"
+              className="px-3 md:px-4 py-1.5 md:py-1 bg-white text-black rounded-lg text-xs md:text-sm font-medium hover:bg-gray-100 transition-colors duration-200 cursor-default"
             >
               {skill}
             </span>
