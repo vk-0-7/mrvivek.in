@@ -13,7 +13,6 @@ export default function Home() {
         <Work />
         <Skills />
         <Education />
-        {/* <Projects /> */}
       </div>
     </div>
   );
