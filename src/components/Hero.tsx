@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
 
         <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl leading-relaxed text-balance">
-          I'm a full-stack developer, turning ideas into production-ready
+          {"I'm "}a full-stack developer, turning ideas into production-ready
           products—handling everything from concept to deployment with a
           complete modern tech stack.
         </p>

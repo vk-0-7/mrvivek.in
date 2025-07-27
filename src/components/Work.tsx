@@ -3,10 +3,12 @@ import Shopiq from "@/assets/shopiq.png";
 import Cftlabs from "@/assets/cftlabs.jpeg";
 import Link from "next/link";
 
+import { StaticImageData } from "next/image";
+
 interface WorkExperience {
   company: string;
   role: string;
-  logo: any;
+  logo: StaticImageData;
   duration: string;
   isPresent?: boolean;
   link: string;
