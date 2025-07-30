@@ -42,12 +42,12 @@ export const StickyBottom = () => {
       label: "LinkedIn",
       external: true,
     },
-    {
-      icon: <FaTwitter />,
-      href: "https://x.com/vivek_dev007",
-      label: "Twitter",
-      external: true,
-    },
+    // {
+    //   icon: <FaTwitter />,
+    //   href: "https://x.com/vivek_dev007",
+    //   label: "Twitter",
+    //   external: true,
+    // },
     {
       icon: <FaInstagram />,
       href: "https://www.instagram.com/vivek07____/",
