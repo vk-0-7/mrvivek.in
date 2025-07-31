@@ -17,6 +17,3 @@ This site showcases my work, skills, and projects as a **developer passionate ab
 ✅ Showcases featured projects with live demos  
 ✅ Easy-to-navigate sections (About, Projects, Contact)  
 ✅ SEO optimized for better discoverability  
-
-## 📂 Folder Structure  
-
